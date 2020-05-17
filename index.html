@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link type="text/css" rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<form>
+<table id="calc">
+	<tr>
+		<th colspan="4" id="nome">minha calculadora</th>
+	</tr>
+	<tr>
+		<th id="th" colspan="4">
+			<input id="screen" type="text" readonly="" placeholder="0" max="18" min="1" name="tela">
+		</th>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<button type="reset" name="limpar">AC</button>
+		</td>
+		<td colspan="1">
+			<input class="parents" type="button" value="(" name="parentsq">
+		</td>
+		<td colspan="1">
+			<input class="parents" type="button" value=")" name="parentdir">
+		</td>
+	</tr>
+	<tr>
+		<th><input class="num" type="button" value="9" name="nove"></th>
+		<th><input class="num" type="button" value="8" name="oito"></th>
+		<th><input class="num" type="button" value="7" name="sete"></th>
+		<th><input class="num" type="button" value="➗" name="div"></th>
+	</tr>
+	<tr>
+		<th><input class="num" type="button" value="6" name="seis"></th>
+		<th><input class="num" type="button" value="5" name="cinco"></th>
+		<th><input class="num" type="button" value="4" name="quatro"></th>
+		<th><input class="num" type="button" value="✖" name="multi"></th>
+	</tr>
+	<tr>
+		<th><input class="num" type="button" value="3" name="tres"></th>
+		<th><input class="num" type="button" value="2" name="dois"></th>
+		<th><input class="num" type="button" value="1" name="um"></th>
+		<th><input class="num" type="button" value="➕" name="adi"></th>
+	</tr>
+	<tr>
+		<th><input class="num" type="button" value="0" name="zero"></th>
+		<th><input class="num" type="button" value="." name="ponto"></th>
+		<th><input class="num" type="button" value="➖" name="sub"></th>
+		<th><input class="ok" type="button" value="✅" name="resultado"></th>
+	</tr>
+</table>
+</form>
+	<script src="main.js"></script>
+</body>
+</html>
