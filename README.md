@@ -1,7 +1,7 @@
 # calculator
  Em andamento...
 
-![](calculadora.)
+![](calculadora.PNG)
 
 ## 🗒 Sobre:
 Calculadora sendo construida pra uso didatico.
