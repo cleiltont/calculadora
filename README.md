@@ -15,5 +15,5 @@ Calculadora sendo construida pra uso didatico.
 - Nenhuma
 
 ## 🏁 Como executar o projeto:
-1 Baixe ou clone o repositorio.
-2 Execute o arquivo index.html
+- Baixe ou clone o repositorio.
+- Execute o arquivo index.html
