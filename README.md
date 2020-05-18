@@ -1,5 +1,5 @@
 # calculator
- Em andamento...
+ Ainda não esta funcionando!
 
 ![](calculadora.PNG)
 
