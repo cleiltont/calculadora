@@ -27,7 +27,7 @@ body{
 	color: #FFF;
 	font-family: Arial, Helvetica, sans-serif;
 }
-#th{
+.th{
 	width: 100px;
 }
 .ac{
@@ -38,7 +38,7 @@ body{
 	color: #ecf0ee;
 	outline: none;
 }
-#screen{
+.screen{
 	width: 99%;
 	color: #2acc6e;
 }
