@@ -1,6 +1,8 @@
 # calculator
  Em andamento...
 
+![Alt text](calculadora.png)
+
 ## 🗒 Sobre:
 Calculadora sendo construida pra uso didatico.
 
