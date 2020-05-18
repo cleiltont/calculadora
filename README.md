@@ -1,7 +1,7 @@
 # calculator
  Em andamento...
 
-![Alt text](calculadora.png)
+![](calculadora.PNG)
 
 ## 🗒 Sobre:
 Calculadora sendo construida pra uso didatico.
@@ -15,5 +15,5 @@ Calculadora sendo construida pra uso didatico.
 - Nenhuma
 
 ## 🏁 Como executar o projeto:
-1º Baixe ou clone o repositorio.
-2º Execute o arquivo index.html
+1. Baixe ou clone o repositorio.
+2. Abra o arquivo index.html com seu navegador
