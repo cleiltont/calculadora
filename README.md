@@ -1,7 +1,7 @@
 # calculator
  Em andamento...
 
-![Alt text](calculadora.png)
+![Alt text](calculadora.png?raw=true "Title")
 
 ## 🗒 Sobre:
 Calculadora sendo construida pra uso didatico.
