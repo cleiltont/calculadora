@@ -1,11 +1,8 @@
 // Pega o elemento input com name "tela", do arquivo index
-let tela1 = document.querySelector('input[name=tela1]');
-let tela2 = document.querySelector('input[name=tela2]');
+let tela = document.querySelector('input[name=tela]');
 
 // Pega a tabela do arquivo index.html
 let inputs = document.querySelector('table');
-
-let numeros = [];
 
 //Esta função encontrar o elemento que você clicar na area
 //da tabela. Tudo que está dentro da tabela.
@@ -18,28 +15,21 @@ inputs.addEventListener('click', function(event){
 	//esse codigo executara.
 	if(button !== undefined && 
 		event.target.type !== 'text' &&
-		event.target.name !== 'ac'){
+		event.target.name !== 'ac' &&
+		event.target.name !== 'somar'){
 		
 		//O que irá mostrar na tela.
 		//Qualquer botão diferente do OK.
-			tela1.value += button;
+		tela.value += button;
 
-			//Transforma em numero
-			num = parseInt(button);
-
-			//Verifica se é um numero
-			if(typeof num === 'number' && isNaN(num) === false){
-				numeros.push(num);
-				localStorage.setItem('numero1', numeros);
-			}
-			if(button.value === "+"){
-				//
-			} else if(button.value === "-"){
-				//
-			}
-
-			tela2.value = localStorage.getItem('numeros');
 		
+		
+		
+	}else if(event.target.name === 'somar'){
+		if(tela.value !== ''){
+			let valor = eval(tela.value);
+			tela.value = valor;
+		}
 	}
 
 });
